@@ -32,5 +32,6 @@ sudo cp /opt/intel/oneapi/compiler/2021.4.0/env/vars.sh /opt/intel/oneapi/compil
 ```
 ### Verify installation
 Check icc
-```icc --version
+```
+icc --version
 ```
