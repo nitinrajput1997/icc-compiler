@@ -14,12 +14,12 @@ sudo sh <script-name>.sh -a --silent --eula accept
  vi ~/.bashrc
 ```
 
-Append following environment variable
+**Append following environment variable**
 ```
 export INTEL_ONEAPI_ROOT=/opt/intel/oneapi
 export PATH=$PATH:$INTEL_ONEAPI_ROOT/compiler/2021.4.0/env:$INTEL_ONEAPI_ROOT/compiler/2021.4.0/linux/bin/intel64
 ```
-Execute
+**Execute**
 ```
 source .bashrc --force
 ```
